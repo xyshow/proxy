@@ -1,0 +1,27 @@
+{
+  "name": "proxy",
+  "description": "open source proxy server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production node ./build/main.js",
+    "dev": "NODE_ENV=development backpack dev",
+    "build": "backpack build",
+    "postinstall": "backpack build"
+  },
+  "dependencies": {
+    "backpack-core": "^0.4.3",
+    "chalk": "^2.3.1",
+    "koa": "^2.4.1",
+    "koa-better-http-proxy": "^0.2.4",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.3.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "memeye": "^1.0.3"
+  }
+}

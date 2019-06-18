@@ -1,0 +1,1 @@
+pm2 start build/main.js --name="proxy"
